@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Bottles from './components/Bottles/Bottles'
+import Header from './components/Header/Header'
 
 function App() {
 
@@ -9,7 +8,8 @@ function App() {
     <>
       
       <h1>Memorable Water Bottles</h1>
-      
+      <Header></Header>
+      <Bottles></Bottles>
     </>
   )
 }
