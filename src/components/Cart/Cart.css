@@ -1,0 +1,7 @@
+.cart-container img{
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid blueviolet;
+}
